@@ -32,7 +32,7 @@ export default class Home extends Component {
 				<header>
 					<div onClick={this.hide} className="left">
 						<span >菜单</span>
-						<span>卖座电影</span>
+						<span ref="IPT">卖座电影</span>
 					</div>
 					<div className="right">
 						<span id="orientate"><i>></i></span>

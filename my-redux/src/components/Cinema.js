@@ -7,6 +7,7 @@ export default class Cinema extends Component{
 		this.state = {
 			cinema : []
 		}
+		this.to = this.to.bind(this);
 	}
 	
 	componentDidMount(){
@@ -18,7 +19,12 @@ export default class Cinema extends Component{
 			})
 		})
 	}
+	to(fid){
+		console.log(fid)
+		this.props.history.push("/moviecenter/" + fid);
+	}
 	render(){
+		var that = this;
 		return (
 			<div className="cinema-view">
 				<div className="district ">
@@ -26,7 +32,7 @@ export default class Cinema extends Component{
 						{
 							this.state.cinema.map(function(item,index){
 								return (
-									<div className="cinema-wrap">
+									<div key={item.id} className="cinema-wrap" onClick={()=>that.to(item.id)}>
 										<div className="cinema clearfix">
 											<div className="cinema-title">
 												<div className="cinema-title-cinemaname">
