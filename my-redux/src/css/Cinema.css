@@ -1,0 +1,95 @@
+.cinema-view {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 48px;
+}
+.district .content {
+    margin-top: 0px;
+    width: 100%;
+    padding: 0;
+}
+.district .content {
+    display: block;
+}
+.district .content .cinema-wrap {
+    margin: 0 auto;
+    border-bottom: 1px solid #e1e1e1;
+    cursor: pointer;
+    min-width: 320px;
+}
+.district .content .cinema-wrap .cinema {
+    border-radius: 5px;
+    height: 97px;
+    padding: 10px 0 12px 16px;
+    cursor: pointer;
+}
+.district .content .cinema-wrap .cinema .cinema-title {
+    width: 75%;
+    min-width: 230px;
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-cinemaname {
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.district .content .cinema-wrap .cinema .nav {
+    padding-right: 15px;
+    line-height: 36px;
+    color: #c6c6c6;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-cinemaname i:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: text-top;
+    max-width: 80%;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-cinemaname i {
+    font-style: normal;
+    margin-right: 3px;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-cinemaname .book {
+    color: #fc8558;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-cinemaname .ticket {
+    color: #88aec8;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-cinemaname .book, .district .content .cinema-wrap .cinema .cinema-title .cinema-title-cinemaname .ticket {
+    font-size: 20px;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-address {
+    display: inline-block;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    color: #ccc;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-location {
+    font-size: 12px;
+    color: #ccc;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-cinemaname i {
+    font-style: normal;
+    margin-right: 3px;
+}
+.district .content .cinema-wrap .cinema .cinema-title .cinema-title-tip {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.pull-right {
+    float: right !important;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}

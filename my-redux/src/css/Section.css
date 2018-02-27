@@ -1,0 +1,154 @@
+#lunbo {
+	width: 100%;
+	height: 210px;
+	background: silver;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+
+#lunbo img {
+	width: 100%;
+	height: 100%;
+}
+.list {
+	width: 100%;
+	height: auto;
+}
+
+.list .list_1 {
+	width: 100%;
+	height: auto;
+}
+
+.list .list_1 ul {
+	width: 100%;
+	height: auto;
+	padding-top: 18px;
+}
+
+.list .list_1 ul li {
+	margin: 0 17px 17px 17px;
+	width: 90.9%;
+	cursor: pointer;
+}
+
+.list .list_1 ul li .img img {
+	width: 100%;
+}
+
+.list .list_1 ul li .row {
+	width: 100%;
+	height: 50px;
+	background: #FFFFFF;
+}
+
+.list .list_1 ul li .row .rowleft {
+	width: 83.33333333%;
+	float: left;
+	height: 100%;
+	padding: 12px 0 0 12px;
+	color: #333333;
+	font-size: 11px;
+}
+
+.list .list_1 ul li .row .rowleft p:nth-child(2) {
+	color: #9a9a9a;
+	font-size: 11px;
+}
+
+.list .list_1 ul li .row .rowright {
+	width: 12.6666666%;
+	height: 100%;
+	float: right;
+}
+
+.list .list_1 ul li .row .rowright span {
+	color: #f78360;
+	display: inline-block;
+	line-height:50px;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+.list .list_1 .more-button {
+	width: 160px;
+	height: 30px;
+	border:1px solid #aaa;
+	border-radius: 15px;
+	margin: 10px auto 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	color: #616161;
+	cursor: pointer;
+}
+
+.list2{
+	width: 100%;
+	height: auto;
+}
+.list2 .top{
+	border-bottom: 1px solid #8a8a8a;
+	margin:30px 0 30px 0;
+}
+.list2 .top .up{
+	width: 60px;
+	height: 20px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background: #a7a7a7;
+	color: #EEEEEE;
+	text-align: center;
+	line-height: 20px;
+	font-size:10px;
+	margin-bottom: -10px;
+}
+.list2 .movielist{
+	width: 100%;
+}
+.list2 .movielist ul{
+	padding-top: 18px;
+}
+.list2 .movielist ul li{
+	cursor: pointer;
+	width: 341px;
+	margin: 0 17px 17px 17px;
+}
+.list2 .movielist ul li .movieimg img{
+	width: 341px;
+}
+.list2 .movielist ul li .brow{
+   background: #FFFFFF;
+   width: 100%;
+   height: 35px;
+}
+.list2 .movielist ul li .brow .brleft{
+ 	width: 58.33333333%;
+    padding-top: 10px;
+    padding-left:20px;
+    font-size: 12px;
+    line-height: 15px;
+    height: 35px;
+    float: left;
+}
+.list2 .movielist ul li .brow .brright{
+ 	font-size: 10px;
+    color: RGB(245, 162, 125);
+    line-height: 15px;
+    width: 121.5px;
+    height: 35px;
+    padding-top: 10px;
+    float: left;
+}
+.list2 .movielist .more-button{
+	width: 160px;
+    height:30px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    margin: 10px auto 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #616161;
+    cursor: pointer;
+}

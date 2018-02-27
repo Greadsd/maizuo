@@ -1,19 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import './css/App.css';
+import Home from './components/Home';
+import Section from './components/Section';
+import Detail from './components/Detail';
+import Movie from './components/Movie';
+import Cinema from './components/Cinema';
 class App extends Component {
+	constructor(props){
+		super(props);
+		
+	}
+	componentDidMount(){
+		
+		
+	}
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+    	<Router>
+	      <div className="App">
+          <Link to="/"></Link>
+          <Route  path="/" component={Home} />
+          <Route exact path="/" component={Section} />
+          <Route path="/detail/:fid" component={Detail} />
+          <Route path="/movie" component={Movie} />
+          <Route path="/cinema" component={Cinema} />
+	      </div>
+      </Router>
     );
   }
 }

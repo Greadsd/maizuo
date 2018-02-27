@@ -1,0 +1,92 @@
+
+.film-view .film-list-wrap{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f9f9f9;
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+    margin-top: 48px;
+}
+.film-view .film-list-nav {
+    height: 46px;
+    margin: 0 auto;
+    border-bottom: solid #fe6e00 1px;
+}
+.film-view .film-list-nav .choosing{
+    color: #fe6e00 !important;
+    border-bottom: solid;
+}
+.film-view .film-list-nav .now-playing, .film-view .film-list-nav .coming-soon {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 46px;
+    color: #6a6a6a;
+    cursor: pointer;
+}
+.film-view .film-list .film-item {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: dashed 1px #c9c9c9;
+    cursor: pointer;
+}
+.film-view .film-list .film-item .film-item-img {
+    width: 60px;
+    float: left;
+    overflow: hidden;
+}
+.film-view .film-list .film-item .film-item-img .img{
+	width: 100%;
+}
+.film-view .film-list .film-item .film-desc {
+    padding-left: 15px;
+    display: inline-block;
+    width: 75%;
+}
+img {
+    vertical-align: middle;
+}
+.film-view .film-list .film-item .film-desc .film-next-arrow {
+    float: right;
+    line-height: 29px;
+    color: #c6c6c6;
+}
+.film-view .film-list .film-item .film-desc .film-next-arrow .film-next-icon {
+    font-size: 10px !important;
+}
+.film-view .film-list .film-item .film-desc .film-grade {
+    float: right;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fc7103;
+}
+.film-view .film-list .film-item .film-desc .film-name {
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.film-view .film-list .film-item .film-desc .film-intro {
+    height: 24px;
+    line-height: 24px;
+    color: #8e8e8e;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    display: inline-block;
+}
+.film-view .film-list .film-item .film-desc .film-counts {
+    line-height: 24px;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+.film-view .film-list .film-item .film-desc .film-count-color1 {
+    color: #8aa2bf;
+}
