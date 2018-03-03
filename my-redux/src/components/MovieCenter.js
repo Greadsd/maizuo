@@ -13,6 +13,7 @@ class MovieCenter extends Component{
 			cinema : [],
 			telephones :[]
 		}
+		this.gogo = this.gogo.bind(this);
 	}
 	componentDidMount(){
 		var id = this.props.match.params.fid;
@@ -26,8 +27,13 @@ class MovieCenter extends Component{
 			})
 		})
 	}
+	gogo(fid){
+		console.log(fid)
+		this.props.history.push("/film/"+fid);
+	}
 	render(){
 		var list = this.state.cinema;
+		var that = this;
 		return (
 			<div className="cinema-view cinema-detail-view">
 				<div className="img-responsive">
@@ -41,7 +47,7 @@ class MovieCenter extends Component{
 						<div className="box">
 							<h3>订座票</h3>
 							<span>选好场次及座位，到影院自助机取票</span>
-							<button className="btn-default seat-btn" type="button">立即订座</button>
+							<button onClick={()=>that.gogo(list.id)} className="btn-default seat-btn" type="button">立即订座</button>
 						</div>
 					</div>
 				</div>

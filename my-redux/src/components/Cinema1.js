@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import '../css/Cinema.css'
-export default class Cinema extends Component{
+export default class Cinema1 extends Component{
 	constructor(props){
 		super(props);
 		this.state = {
@@ -55,7 +55,6 @@ export default class Cinema extends Component{
 	}
 	to(fid){
 		console.log(fid)
-		this.props.history.push("/moviecenter/" + fid);
 	}
 	render(){
 		var that = this;

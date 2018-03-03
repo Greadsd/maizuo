@@ -1,0 +1,26 @@
+.city-view{
+	margin-top: 48px;
+}
+.city-view .city-index-title {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #ebebeb;
+    margin-top: -1px;
+}
+.city-view .city-index-detail {
+    background-color: #fff;
+}
+.city-view .city-index-detail .list-unstyled .city-item-detail-gprs {
+    color: #e2941a;
+}
+.city-view .city-index-detail .city-item-detail {
+    width: 25%;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    color: #838383;
+    border-bottom: #ebebeb 1px solid;
+}

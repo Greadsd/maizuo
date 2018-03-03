@@ -1,0 +1,116 @@
+.card-query {
+    font-size: 14px;
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background-color: #fcfcfc;
+    margin-top: 48px;
+}
+.card-query .card_query_form .tab {
+    height: 45px;
+    background-color: #fff;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 15px;
+    color: #ccc;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.card-query .card_query_form ul li.active {
+    box-shadow: 0 -4px #ff7100 inset;
+}
+.card-query .card_query_form ul li.active a {
+    color: #ff7100;
+}
+.card-query .card_query_form ul li {
+    text-align: center;
+    font-size: 16px;
+    line-height: 45px;
+    box-shadow: 0 -1px #ff7100 inset;
+    transition: all 0.2s ease;
+    width: 50%;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.card-query .card_query_form .exchanege, .card-query .card_query_form .material {
+    margin-top: 20px;
+    padding: 0 32px;
+}
+.card-query .card_query_form .exchanege{
+    display:none ;
+}
+.card-query .card_query_form .material{
+	display: block;
+}
+.card-query .card_query_form .act{
+	display: block;
+}
+.card-query .card_query_form .act1{
+	display: none;
+}
+.card-query .card_query_form .exchanege div, .card-query .card_query_form .material div {
+    margin-top: 30px;
+}
+.card-query .card_query_form .exchanege label, .card-query .card_query_form .material label {
+    font-weight: normal;
+    line-height: 34px;
+    margin: 0 15px 0 10px;
+    float: left;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.card-query .card_query_form .exchanege input, .card-query .card_query_form .material input {
+    border: none;
+    background-color: transparent;
+    height: 34px;
+    width: 55%;
+    font-size: 14px;
+    vertical-align: top;
+    border: none;
+    outline: medium;
+}
+.card-query .card_query_form .exchanege .qrcode, .card-query .card_query_form .material .qrcode {
+    font-size: 24px;
+    color: #26a69a;
+    float: right;
+    margin-right: 15px;
+}
+.card-query .card_query_form .exchanege .line, .card-query .card_query_form .material .line {
+    border-width: 0px 1px 1px;
+    border-style: solid;
+    border-color: #ccc;
+    height: 5px;
+    margin-top: -5px;
+}
+.card-query .msg {
+    margin: 0 20px;
+    color: #fe8233;
+    height: 25px;
+    padding: 5px 20px;
+}
+.card-query .card_query_bottom {
+    width: 160px;
+    margin: 25px auto 30px;
+    border-radius: 18px;
+    background-color: #fe8233;
+    height: 36px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    border: none;
+}

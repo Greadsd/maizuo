@@ -10,6 +10,7 @@ export default class Detail extends Component {
 			imgurl:[],
 			actors : []
 		}
+		this.gogo = this.gogo.bind(this);
 	}
 	componentDidMount(){
 		var id = this.props.match.params.fid
@@ -22,6 +23,9 @@ export default class Detail extends Component {
 				actors:res.data.data.film.actors
 			})
 		})
+	}
+	gogo(){
+		this.props.history.push("/cinemal")
 	}
 	render() {
 		var list = this.state.film;
@@ -42,7 +46,7 @@ export default class Detail extends Component {
 							{
 								this.state.actors.map(function(item,index){
 									return (
-										<span key={item.name}>{item.name}&nbsp;</span>
+										<span key={item.name}>{item.name}&nbsp;|&nbsp;</span>
 									)
 								})
 							}
@@ -66,7 +70,7 @@ export default class Detail extends Component {
 					<div className="film-word3">{list.synopsis}</div>
 				</div>
 				<div className="operation">
-					<button className="cpn-primary-button">立即购票</button>
+					<button className="cpn-primary-button" onClick={this.gogo}>立即购票</button>
 				</div>
 			</div>
 		)

@@ -11,7 +11,7 @@ export default class Home extends Component {
 			flag : true
 		}
 		this.hide = this.hide.bind(this);
-		
+		this.gocity = this.gocity.bind(this);
 	}
 	hide(){
 		if(this.state.flag == true){
@@ -26,6 +26,9 @@ export default class Home extends Component {
 		})
 //		console.log(this.state.flag)
 	}
+	gocity(){
+		this.props.history.push("/city");
+	}
 	render(){
 		return (
 			<div className="top">
@@ -35,7 +38,7 @@ export default class Home extends Component {
 						<span ref="IPT">卖座电影</span>
 					</div>
 					<div className="right">
-						<span id="orientate"><i>></i></span>
+						<span id="orientate" onClick={this.gocity}><i>></i></span>
 						<span className="iconfont">&#xe601;</span>
 					</div>
 			 	</header>
@@ -46,8 +49,8 @@ export default class Home extends Component {
 							<li><Link onClick={this.hide} to={"/movie"}>影片</Link><span>></span></li>
 							<li><Link onClick={this.hide} to={"/cinema"}>影院</Link><span>></span></li>
 							<li><Link onClick={this.hide} to={"/"}>商城</Link><span>></span></li>
-							<li><Link onClick={this.hide} to={"/"}>我的</Link><span>></span></li>
-							<li><Link onClick={this.hide} to={"/"}>卖座卡</Link><span>></span></li>
+							<li><Link onClick={this.hide} to={"/login"}>我的</Link><span>></span></li>
+							<li><Link onClick={this.hide} to={"/salescard"}>卖座卡</Link><span>></span></li>
 						</ul>
 					</div>
 				</div>
